@@ -1,0 +1,15 @@
+CDN:
+
+- Content Delivery Network;
+- Entrega visando a localização geografica;
+- WAF;
+- Conteudo distribuido;
+
+CLOUDFRONT
+
+- Servico rapido de CDN;
+- Integração:
+	- AWS Shield;
+	- AWS Web Application Firewall;
+	- Amazon Route 53;
+
