@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <script>
+!function(){"use strict";!function(){function e(e){try{return void 0!==globalThis[e]}catch(e){return!1}}function t(){var e={};return{setItem:function(t,o){return e[t]=String(o)},getItem:function(t){return e.hasOwnProperty(t)?e[t]:void 0},removeItem:function(t){return delete e[t]},clear:function(){return e={}}}}e("localStorage")||(delete globalThis.localStorage,globalThis.localStorage=t()),e("sessionStorage")||(delete globalThis.sessionStorage,globalThis.sessionStorage=t())}()}();
+        </script>
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion</title>
+    <link rel="stylesheet" href="style.css">
+
+        <link
+          rel="icon"
+          type="image/png"
+          href="data:image/png;base64,iVBORw0KGgo="
+        />
+
+        <style>
+          
+        .notion-topbar + div {
+          display: none !important;
+        }
+    
+        div.notion-topbar, div.notion-topbar-mobile {
+          display: none !important;
+        }
+      
+          
+          
+          
+          
+          
+
+          .toggle-checkbox {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+          }
+
+          .toggle-slot {
+            position: absolute;
+            right: 10px;
+            bottom: -75px;
+            height: 10em;
+            width: 20em;
+            border: 9px solid #e4e7ec;
+            border-radius: 10em;
+            background-color: transparent;
+
+            transition: background-color 250ms;
+          }
+
+          .toggle-mode {
+            transform: scale(0.15);
+            position: absolute;
+            right: 10px;
+          }
+
+          .toggle-button {
+            transform: translate(11.75em, 1.25em);
+            position: absolute;
+            height: 6.5em;
+            width: 6.5em;
+            border-radius: 50%;
+            background-color: #ffeccf;
+            box-shadow: inset 0px 0px 0px 0.75em #ffbb52;
+            transition: background-color 250ms, border-color 250ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+          }
+
+          .toggle-checkbox:checked ~ .toggle-slot .toggle-button {
+            background-color: #485367;
+            box-shadow: inset 0px 0px 0px 0.75em white;
+            transform: translate(1.75em, 1.25em);
+          }
+
+          .sun-icon {
+            position: absolute;
+            height: 6em;
+            width: 6em;
+            color: #ffbb52;
+          }
+
+          .sun-icon-wrapper {
+            position: absolute;
+            height: 6em;
+            width: 6em;
+            opacity: 1;
+            transform: translate(2em, 1.5em) rotate(15deg);
+            transform-origin: 50% 50%;
+            transition: opacity 150ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+          }
+
+          .toggle-checkbox:checked ~ .toggle-slot .sun-icon-wrapper {
+            opacity: 0;
+            transform: translate(3em, 2em) rotate(0deg);
+          }
+
+          .notion-image-block div[role="button"], .notion-video-block div[role="button"] {
+            display: none !important;
+          }
+
+          .moon-icon {
+            position: absolute;
+            height: 6em;
+            width: 6em;
+            color: white;
+          }
+
+          .moon-icon-wrapper {
+            position: absolute;
+            height: 6em;
+            width: 6em;
+            opacity: 0;
+            transform: translate(11em, 1.5em) rotate(0deg);
+            transform-origin: 50% 50%;
+            transition: opacity 150ms, transform 500ms cubic-bezier(.26,2.5,.46,.71);
+          }
+
+          .toggle-checkbox:checked ~ .toggle-slot .moon-icon-wrapper {
+            opacity: 1;
+            transform: translate(12em, 1.5em) rotate(-15deg);
+          }
+
+          .altTextBlockButton {
+            display: none !important;
+          }
+
+          
+        </style>
+
+        <script>
+          if (window) {
+            if ("WebSocket" in window) {
+              window.WebSocket = {};
+            }
+          }
+
+          window.history.replaceState(
+            window.history.state,
+            "",
+            "undefined",
+          );
+
+          try {
+            localStorage.setItem("__console", "true"),
+              localStorage.setItem(
+                "theme",
+                '{"mode":"dark"}',
+              );
+          } catch (e) {}
+          try {
+            window.localStorage.setItem("__console", "true"),
+              window.localStorage.setItem(
+                "theme",
+                '{"mode":"dark"}',
+              );
+          } catch (e) {}
+        </script>
+      </head>
+
+<body>
+
+    <div class="main">
+        <div class="imgs">
+            <img class="tcb" src="tcb.png" alt="">
+            <img class="aws" src="aws.png" alt="">
+        </div>
+
+        <div class="texts">
+                 <!-- <h1 data-text="Parabéns, Missão cumprida!">Parabéns, Missão cumprida!</h1> -->
+            
+            <h2  id="text"> </h2>
+        </div>
+        <div class="rocket">
+            <img src="rocket.png" alt="rocket.png">
+        </div>
+
+
+    </div>
+
+    <script>
+        document.addEventListener("mousemove", function (e) {
+            var rocket = document.querySelector('.rocket');
+            rocket.style.left = e.offsetX + 'px';
+            rocket.style.top = e.offsetY + 'px';
+        })
+
+        function starts() {
+            let count = 50;
+            let main = document.querySelector('.texts');
+            let i = 0;
+            while (i < count) {
+                let star = document.createElement('i');
+                let x = Math.floor(Math.random() * window.innerWidth);
+                let duration = Math.random() * 1;
+                let h = Math.random() * 100;
+                star.style.left = x + 'px';
+                star.style.width = 1 + 'px';
+                star.style.height = h + 'px';
+                star.style.animationDuration = duration + 's';
+                main.appendChild(star);
+                i++;
+            }
+        }
+        starts();
+    </script>
+
+<script type="text/javascript">
+    var i = 0,
+        text;
+    text = "Parabéns Bootcamper, Missão Cumprida: Site Estático Hospedado em um Bucket S3 com Acesso Global e Restrito via Amazon CloudFront!!!";
+
+    function typing() {
+        if (i < text.length) {
+            document.getElementById("text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing, 80);
+        }
+    }
+
+    typing();
+</script>
+
+<script>
+          window.CONFIG.domainBaseUrl = "https://xrgerp0ggpe2xz.embednotionpage.com";
+          let redirected = false;
+
+          
+function onDark() {
+  document.body.classList.add("dark");
+  __console.environment.ThemeStore.setState({ mode: "dark" });
+  localStorage.setItem("theme", '{"mode": "dark"}');
+}
+
+function onLight() {
+  document.body.classList.remove("dark");
+  __console.environment.ThemeStore.setState({ mode: "light" });
+  localStorage.setItem("theme",'{"mode": "dark"}');
+}
+
+function toggle(e) {
+  var checked = false;
+
+  if (e.matches != null) {
+    checked = e.matches;
+    var checkboxEl = document.querySelector(".toggle-checkbox");
+    if (checkboxEl) { checkboxEl.checked = checked };
+  } else {
+    checked = e.target.checked;
+  }
+
+  if (checked) {
+    onDark();
+  } else {
+    onLight();
+  }
+}
+
+function addDarkModeButton(device) {
+  const el = document.createElement("label");
+  const nav =
+    device === "web"
+      ? document.querySelector(".notion-topbar").firstChild
+      : document.querySelector(".notion-topbar-mobile");
+  el.className = "toggle-mode";
+  nav.appendChild(el);
+
+  el.innerHTML = '<input class="toggle-checkbox" type="checkbox"></input> <div class="toggle-slot"> <div class="sun-icon-wrapper"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify sun-icon" data-icon="feather-sun" data-inline="false"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></g></svg> </div><div class="toggle-button"></div><div class="moon-icon-wrapper"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" class="iconify moon-icon" data-icon="feather-moon" data-inline="false"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79z"></path></svg></div></div>';
+
+  el.querySelector(".toggle-checkbox").addEventListener("change", toggle);
+
+  // enable smart dark mode based on user-preference
+  var checkboxEl = el.querySelector(".toggle-checkbox");
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    if (checkboxEl) { checkboxEl.checked = true };
+    onDark();
+  } else {
+    if (checkboxEl) { checkboxEl.checked = false };
+    onLight();
+  }
+
+  // try to detect if user-preference change
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", toggle);
+}
+;
+
+          function addDuplicateButton(device) {
+            const el = document.createElement("div");
+            const nav =
+              device === "web"
+                ? document.querySelector(".notion-topbar").firstChild
+                : document.querySelector(".notion-topbar-mobile");
+            el.className = "duplicate-page";
+            el.role = "button";
+            nav.appendChild(el);
+            el.innerHTML = "Duplicate";
+            el.addEventListener("click", function () {
+              window
+                .open(
+                  "https://www.notion.so/undefined?duplicate=true",
+                  "_blank",
+                )
+                .focus();
+            });
+          }
+
+          const observer = new MutationObserver(function () {
+            
+  var systemDarkMode = false;
+  
+  try {
+  __console.environment.ThemeStore.setState({
+    mode: systemDarkMode ? "dark" : "dark",
+  });
+  } catch (_err) {}
+;
+
+            if (redirected) return;
+            const nav = document.querySelector(".notion-topbar");
+            const mobileNav = document.querySelector(".notion-topbar-mobile");
+            if (
+              (nav && nav.firstChild && nav.firstChild.firstChild) ||
+              (mobileNav && mobileNav.firstChild)
+            ) {
+              redirected = true;
+              addDuplicateButton(nav ? "web" : "mobile");
+              addDarkModeButton(nav ? "web" : "mobile");
+              const onpopstate = window.onpopstate;
+              window.onpopstate = function () {
+                onpopstate.apply(this, [].slice.call(arguments));
+              };
+            }
+          });
+          observer.observe(document.querySelector("#notion-app"), {
+            childList: true,
+            subtree: true,
+          });
+          const replaceState = window.history.replaceState;
+          window.history.replaceState = function (state) {
+            return replaceState.apply(window.history, arguments);
+          };
+          const open = window.XMLHttpRequest.prototype.open;
+          window.XMLHttpRequest.prototype.open = function () {
+            arguments[1] = arguments[1].replace(
+              "https://xrgerp0ggpe2xz.embednotionpage.com",
+              "https://www.notion.so",
+            );
+            return open.apply(this, [].slice.call(arguments));
+          };
+        </script>
+         
+        <script>
+          var debounceTimer;
+          function findStringInNested(obj) {
+            if (typeof obj === "string") {
+              return obj;
+            } else if (Array.isArray(obj)) {
+              for (const element of obj) {
+                const result = findStringInNested(element);
+                if (result) return result;
+              }
+            } else if (typeof obj === "object" && obj !== null) {
+              for (const key in obj) {
+                const result = findStringInNested(obj[key]);
+                if (result) return result;
+              }
+            }
+            return null;
+          }
+
+          function getPageTitle() {
+            try {
+              var pageTitle = findStringInNested(
+                __console.debugging.getCurrentPageDetail().raw.properties.title,
+              );
+              if (pageTitle) {
+                return pageTitle.trim();
+              }
+            } catch (_e) {
+              return window.document.title;
+            }
+          }
+
+          var notifyParentOfUrlChange = function (url) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(function () {
+              window.parent.postMessage(
+                { type: "enp-url-change", url: url, title: getPageTitle() },
+                "*",
+              );
+            }, 50);
+          };
+
+          if (window.navigation) {
+            window.navigation.addEventListener("navigate", function (event) {
+              notifyParentOfUrlChange(event.destination.url);
+            });
+          } else {
+            // Override pushState and replaceState to detect URL changes
+            var originalPushState = history.pushState;
+            var originalReplaceState = history.replaceState;
+
+            history.pushState = function (state) {
+              originalPushState.apply(this, arguments);
+              notifyParentOfUrlChange(location.href);
+            };
+
+            history.replaceState = function (state) {
+              originalReplaceState.apply(this, arguments);
+              notifyParentOfUrlChange(location.href);
+            };
+
+            // Detect browser navigation changes
+            window.onpopstate = function (event) {
+              notifyParentOfUrlChange(location.href);
+            };
+          }
+        </script></body>
+
+</html>

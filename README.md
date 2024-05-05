@@ -22,9 +22,9 @@ Todas as funções de AWS administração, gerenciamento e acesso de IaaS (infra
 
 `aws configure` # Enter 
 
-`AWS Access Key ID [None]`: AKIAIOSFODNN7EXAMPLE # Key ID de exemplo
+`AWS Access Key ID [None]`: AKIAIOSFODNN7EXAMPLE  # Key ID de exemplo
 
-`AWS Secret Access Key [None]`: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY #Key Secret de exemplo
+`AWS Secret Access Key [None]`: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY # Key Secret de exemplo
 
 `Default region name [None]`: us-west-2 # Altere para a região de sua preferencia
 
