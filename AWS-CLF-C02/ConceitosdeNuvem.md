@@ -228,8 +228,11 @@ ____
     - Ferramentas para Automação:
         - AWS Systems Manager, AWS Budgets.
 
+____
 
 
+![AWS Shared Responsibility Model](https://docs.aws.amazon.com/images/whitepapers/latest/disaster-recovery-of-on-premises-applications-to-aws/images/awssharedresponsibilitymodel.png)
 
+____
 
 [Menu](readme.md)
