@@ -181,6 +181,55 @@ ____
 
 ### Aspectos Econômicos da Nuvem AWS
 
+ - **Custos Fixos vs Custos Variáveis**
+    - **Custos Fixos:** não mudam independentemente do uso ou demanda.
+
+    Exemplo: Servidor físico na empresa.
+
+    - **Custos Variáveis:** dependem do uso ou demanda.
+
+    Exemplo: Serviço de streaming de vídeo.
+
+    - **Vantagens dos Custos Variáveis:** 
+        - Economia e eficiência.
+        - Flexibilidade e escalabilidade.
+
+    
+- **Custos On-Premises vs Custos na Nuvem**
+    - Ambientes On-Premises vs Ambientes na Nuvem
+        - On-Premises: infraestrutura mantida internamente.
+        - Nuvem: infraestrutura fornecida por provedor de serviços.
+    - Vantagens da Nuvem:
+        - Redução do TCO (Total Cost of Ownership).
+        - Foco no negócio, sem preocupações com infraestrutura.
+
+- **Estratégias de Licenciamento**
+    - Bring-Your-Own-License (BYOL) vs Licenças Incluídas
+        - BYOL: uso de licenças existentes na nuvem.
+        - Licenças Incluídas: pagamento pelo uso do software na nuvem.
+    - Melhor Estratégia de Licenciamento:
+        - Depende de fatores como tipo de software e custo.
+        - Ferramentas como AWS License Manager podem ajudar na decisão.
+
+- **Dimensionamento Correto**
+    - Conceito de Dimensionamento Correto:
+        - Ajuste do tamanho e tipo de recursos conforme demanda.
+        - Otimização de custos e desempenho.
+    - Ferramentas da AWS para Dimensionamento Correto:
+        - AWS Compute Optimizer.
+        - AWS Cost Explorer.
+
+ - **Automação**
+    - Benefícios da Automação:
+        - Redução de custos e aumento da eficiência.
+        - Execução de tarefas sem intervenção humana.
+    - Serviços Gerenciados pela AWS:
+        - Amazon RDS, Amazon ECS, Amazon EKS, Amazon DynamoDB.
+    - Ferramentas para Automação:
+        - AWS Systems Manager, AWS Budgets.
+
+
+
 
 
 [Menu](readme.md)
