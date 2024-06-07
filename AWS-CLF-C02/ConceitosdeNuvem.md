@@ -11,7 +11,6 @@
 ____
 
 # Conceitos de Nuvem
-____
 
  - Proposta de Valor e Benefícios da Nuvem AWS
     - Um dos principais benefícios da nuvem AWS é a economia de custos.
