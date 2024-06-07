@@ -84,7 +84,7 @@ Conclusão
 
 > Necessidade de uma abordagem e avaliação específicas para cada pilar.
 
-------
+____
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 
@@ -94,5 +94,5 @@ Conclusão
 
 
 
-
-
+____
+[Menu](readme.md)
