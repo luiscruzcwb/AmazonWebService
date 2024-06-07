@@ -1,11 +1,11 @@
-# Conceitos de Nuvem
+### Proposta de Valor e Benefícios da Nuvem AWS**
 
- - Proposta de Valor e Benefícios da Nuvem AWS
-    - Um dos principais benefícios da nuvem AWS é a economia de custos.
-    - **Dimensionamento**
-        - **Vertical:** Aumentar ou diminuir a capacidade de um unico recurso. (Um Servidor)
-        - **Horizontal:** Aumentar ou diminuir o numero de recursos. (Vários Servidores)
-        - Dimensionamento vertical, ou horizontal, de forma manual ou automatica.
+- Um dos principais benefícios da nuvem AWS é a economia de custos.
+- Dimensionamento
+    - **Vertical:** Aumentar ou diminuir a capacidade de um unico recurso. (Um Servidor)
+    - **Horizontal:** Aumentar ou diminuir o numero de recursos. (Vários Servidores)
+    
+    - Dimensionamento vertical, ou horizontal, de forma manual ou automatica.
 
 - Benefícios da Infraestrutura Global
     - Uma **região** é uma área geográfica onde a AWS possui um conjunto de data centers, que são locais onde os servidores, redes, armazenamentos e outros recursos de TI são armazenados e operados. 
@@ -22,7 +22,8 @@
 
 - Vantagens da Alta Disponibilidade, Elasticidade e Agilidade
     - **Alta disponibilidade:** os seus recursos de TI estão sempre acessíveis e operacionais, sem interrupções ou falhas.
-        - **Redundancia** (Replicacao em varias zonas), **Balanceamento de carga**, **Backup** (S3 Storage, RDS, CloudFormation, CloudEndure).
+
+    - **Redundancia** (Replicacao em varias zonas), **Balanceamento de carga**, **Backup** (S3 Storage, RDS, CloudFormation, CloudEndure).
 
     - **Elasticidade:** significa que os seus recursos de TI podem se adaptar às mudanças na demanda, aumentando ou diminuindo a capacidade conforme a necessidade, ou demanda.
         - **Manual:** EC2 Elastic, Lambda
@@ -30,12 +31,12 @@
         
     - **Agilidade:** significa que os seus recursos de TI podem ser lançados, modificados ou encerrados em questão de minutos, sem depender de processos complexos ou demorados.
         - Interface Web, linha de comando, ou API
-            - CLI Command, SDK. 
+        - CLI Command, SDK. 
 ____
 
 ### AWS Well-Architected Framework (WAF)
 
- - O Que é o AWS Well-Architected Framework?
+ - **O Que é o AWS Well-Architected Framework?**
     - Práticas recomendadas para projetar e operar sistemas na AWS.
     - Criado pela AWS com base na vasta experiência em arquitetura na nuvem.
 
@@ -127,37 +128,37 @@ A AWS oferece um conjunto de estratégias de migração baseadas nas melhores pr
 
 1. Retire (Retirada):
 
-Estratégia para migrar aplicativos a serem descomissionados ou arquivados.
+**Estratégia para migrar aplicativos a serem descomissionados ou arquivados.**
 Inclui desativar aplicativos sem valor comercial, reduzir custos de manutenção e hospedagem, e mitigar riscos de segurança.
 
 2. Retain (Reter):
 
-Estratégia para manter aplicativos no ambiente de origem ou adiar sua migração para a nuvem.
+**Estratégia para manter aplicativos no ambiente de origem ou adiar sua migração para a nuvem.**
 Motivos incluem segurança e conformidade, alto risco, dependências e falta de valor comercial na migração.
 
 3. Rehost (Rehospedar):
 
-Mover aplicativos para a nuvem sem modificá-los (lift and shift).
+**Mover aplicativos para a nuvem sem modificá-los (lift and shift).**
 Permite migrar rapidamente para a nuvem, minimizando interrupções e tempo de inatividade.
 
 4. Relocate (Realocar):
 
-Transferir servidores ou instâncias para outra plataforma na nuvem.
+**Transferir servidores ou instâncias para outra plataforma na nuvem.**
 Não exige novo hardware e mantém o aplicativo em execução, minimizando interrupções e tempo de inatividade.
 
 5. Repurchase (Recompra):
 
-Substituir o aplicativo por uma versão ou produto diferente, geralmente para reduzir custos ou melhorar a eficiência.
+**Substituir o aplicativo por uma versão ou produto diferente, geralmente para reduzir custos ou melhorar a eficiência.**
 Inclui mudança para SaaS, atualizações de versão, substituição de aplicativos personalizados, entre outros.
 
 6. Replatform (Realocação de plataformas):
 
-Mover o aplicativo para a nuvem e introduzir otimizações para operá-lo de forma eficiente, reduzir custos ou aproveitar recursos da nuvem.
+**Mover o aplicativo para a nuvem e introduzir otimizações para operá-lo de forma eficiente, reduzir custos ou aproveitar recursos da nuvem.**
 Envolvimento de mudanças na arquitetura do aplicativo para atender a objetivos de negócios e plataformas de destino.
 
 7. Refactor or Re-architect (Refatorar ou Rearquitetar):
 
-Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os recursos nativos para melhorar agilidade, desempenho e escalabilidade.
+**Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os recursos nativos para melhorar agilidade, desempenho e escalabilidade.**
 Útil para aplicativos legados, monolíticos ou difíceis de manter, visando aprimorar testes, segurança e escalabilidade.
 
 > A escolha da estratégia de migração adequada depende de vários fatores, como o tipo, a complexidade e a criticidade dos workloads, os objetivos, os requisitos e as restrições de negócios, o tempo, o custo e o risco da migração, e o nível de maturidade e prontidão para a nuvem.
@@ -177,4 +178,9 @@ Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os 
 Enfatizar a importância da escolha da estratégia correta para uma migração bem-sucedida.
 Encorajar os participantes a explorar as ferramentas e serviços AWS para planejar e executar suas migrações com sucesso.
 ____
+
+### Aspectos Econômicos da Nuvem AWS
+
+
+
 [Menu](readme.md)
