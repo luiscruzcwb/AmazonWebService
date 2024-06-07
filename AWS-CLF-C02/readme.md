@@ -16,3 +16,4 @@
 2. [Segurança e Conformidade](SegurançaeConformidade.md)
 3. [Tecnologia e Serviços](TecnologiaeServiços.md)
 4. [Cobrança, Preços e Suporte](CobrançaPreçoseSuporte.md)
+5. [Anotacoes em Geral](geral.md)
