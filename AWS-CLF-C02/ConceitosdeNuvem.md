@@ -164,17 +164,17 @@ Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os 
 
 
 - **Ferramentas e Servicos AWS para Migração**
-    - AWS Migration Hub
-    - AWS Application Discovery Service
-    - AWS Server Migration Service
-    - AWS Database Migration Service
-    - AWS CloudEndure Migration
-    - AWS Snow Family
+    - **AWS Migration Hub:** Central de controle para monitorar e gerenciar migrações.
+    - **AWS Application Discovery Service:** Descoberta automatizada de workloads para planejamento de migração.
+    - **AWS Server Migration Service:** Migração de servidores para a nuvem.
+    - **AWS Database Migration Service:** Migração de bancos de dados para a nuvem.
+    - **AWS CloudEndure Migration:** Replicação de workloads em tempo real para a nuvem.
+    - **AWS Snow Family:** Dispositivos físicos para transferência de dados em massa para a nuvem.
 
 
+- **Conclusão e Próximos Passos**
 
-
-
-
+Enfatizar a importância da escolha da estratégia correta para uma migração bem-sucedida.
+Encorajar os participantes a explorar as ferramentas e serviços AWS para planejar e executar suas migrações com sucesso.
 ____
 [Menu](readme.md)
