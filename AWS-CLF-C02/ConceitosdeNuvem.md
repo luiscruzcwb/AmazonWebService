@@ -231,7 +231,9 @@ ____
 ____
 
 
-![AWS Shared Responsibility Model](https://docs.aws.amazon.com/images/whitepapers/latest/disaster-recovery-of-on-premises-applications-to-aws/images/awssharedresponsibilitymodel.png)
+![AWS Shared Responsibility Model](https://maturitymodel.security.aws.dev/pt/00.2_shared-responsibility-model_PT-BR.png)
+
+[Modelo de responsabilidade compartilhada](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)
 
 ____
 
