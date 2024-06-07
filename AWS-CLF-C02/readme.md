@@ -10,7 +10,6 @@ Anotações para a certificação.
 - Cobre os principais serviços da AWS, suas aplicações e como eles suportam diferentes cargas de trabalho na nuvem. Para facilitar o entendimento e organização dos conteúdos deste domínio, categorizamos os recursos e produtos da AWS disponíveis de acordo com o escopo do exame, disponível no Apêndice A do Guia do exame AWS Certified Cloud Practitioner (CLF-C02).
 #### Domínio 4: Cobrança, Preços e Suporte (12%)
 - Detalha os modelos de precificação da AWS, gestão de custos e os recursos disponíveis para suporte.
-
 ____
 
  - Proposta de Valor e Benefícios da Nuvem AWS
@@ -44,6 +43,35 @@ ____
     - **Agilidade:** significa que os seus recursos de TI podem ser lançados, modificados ou encerrados em questão de minutos, sem depender de processos complexos ou demorados.
         - Interface Web, linha de comando, ou API
             - CLI Command, SDK. 
+____
+
+### AWS Well-Architected Framework (WAF)
+
+ - O Que é o AWS Well-Architected Framework?
+    - Práticas recomendadas para projetar e operar sistemas na AWS.
+    - Criado pela AWS com base na vasta experiência em arquitetura na nuvem.
+
+ - Benefícios do AWS Well-Architected Framework
+    - Aumenta a confiança e a capacidade de tomar decisões informadas.
+    - Melhora qualidade, performance e segurança dos sistemas.
+    - Reduz riscos e custos.
+    - Acelera a inovação e entrega de valor.
+    - Alinha sistemas com melhores práticas e padrões da AWS.
+    - Prepara para o exame AWS Cloud Practitioner.
+
+ - Como Usar o AWS Well-Architected Framework
+    - **Seis Pilares:**
+
+         - 1-Excelência Operacional.
+         - 2-Segurança.
+         - 3-Confiabilidade.
+         - 4-Eficiência de Desempenho.
+         - 5-Otimização de Custos.
+         - 6-Arquitetura Sustentável.
+         - 7-Revisão de Arquitetura
+
+
+
 
 
 
