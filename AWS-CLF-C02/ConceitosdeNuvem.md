@@ -1,7 +1,5 @@
 # Guia de Estudos : AWS Cloud Practitioner (CLF‐C02)
 
-Anotações para a certificação. 
-
 #### Domínio 1: Conceitos de Nuvem (24%)
 - Explora os fundamentos da computação em nuvem, incluindo modelos de implantação, benefícios e considerações econômicas.
 #### Domínio 2: Segurança e Conformidade (30%)
@@ -10,6 +8,9 @@ Anotações para a certificação.
 - Cobre os principais serviços da AWS, suas aplicações e como eles suportam diferentes cargas de trabalho na nuvem. Para facilitar o entendimento e organização dos conteúdos deste domínio, categorizamos os recursos e produtos da AWS disponíveis de acordo com o escopo do exame, disponível no Apêndice A do Guia do exame AWS Certified Cloud Practitioner (CLF-C02).
 #### Domínio 4: Cobrança, Preços e Suporte (12%)
 - Detalha os modelos de precificação da AWS, gestão de custos e os recursos disponíveis para suporte.
+____
+
+# Conceitos de Nuvem
 ____
 
  - Proposta de Valor e Benefícios da Nuvem AWS
@@ -70,7 +71,35 @@ ____
          - 6-Arquitetura Sustentável.
          - 7-Revisão de Arquitetura
 
+ - **Escalabilidade vs Elasticidade**
 
+    - **Escalabilidade:** Lidar com aumento/diminuição de demanda mantendo performance e disponibilidade.
+    - **Elasticidade:** Ajustar capacidade dinâmica e automaticamente conforme a demanda.
+    - **Relação com pilares:** Escalabilidade - Confiabilidade; Elasticidade - Eficiência de Performance.
+    - Necessidade de considerar ambas para sistemas confiáveis e eficientes.
+
+- **Segurança vs Confiabilidade**
+
+    - **Segurança:** Proteção de informações e sistemas.
+    - **Confiabilidade:** Capacidade de executar funções e se recuperar de falhas.
+    - **Interação:** Ataques podem comprometer a confiabilidade; Falhas podem afetar a segurança.
+    - Importância de considerar a interação entre segurança e confiabilidade.
+
+ - **Otimização de Custos vs Sustentabilidade**
+
+    - **Otimização de Custos:** Melhor retorno sobre investimento em recursos de TI.
+    - **Sustentabilidade:** Redução do impacto ambiental dos sistemas na nuvem.
+    - **Alinhamento:** Otimização implica na redução do consumo de recursos, impactando positivamente a    sustentabilidade.
+    - **Sinergia:** Uso de serviços gerenciados e regiões verdes como exemplo de práticas que beneficiam ambos os pilares.
+Conclusão
+
+> Pilares inter-relacionados e interdependentes.
+
+> Necessidade de uma abordagem e avaliação específicas para cada pilar.
+
+------
+
+### AWS Cloud Adoption Framework (AWS CAF)
 
 
 
