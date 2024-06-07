@@ -83,11 +83,93 @@ Conclusão
 > Pilares inter-relacionados e interdependentes.
 
 > Necessidade de uma abordagem e avaliação específicas para cada pilar.
-
 ____
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 
+ - AWS Cloud Adoption Framework (AWS CAF) como modelo para guiar a transformação digital na AWS. Um modelo que busca identificar e priorizar oportunidades de transformação digital. Avaliar e aumentar a prontidão para a nuvem, deselvonveldo um roteiro para a transição dos negocios para a nuvem. 
+
+  - **Benefícios do AWS CAF**
+
+    - **Redução do Risco Comercial:** Orquestração de iniciativas de nuvem, maximizando benefícios organizacionais e minimizando riscos.
+    - **Melhoria do Desempenho em ESG:** Alinhamento com princípios de ESG para redução da pegada de carbono e promoção da inclusão.
+    - **Aumento da Receita:** Aceleração da transformação digital e resultados de negócios, aumentando agilidade e inovação.
+    - **Aumento da Eficiência Operacional:** Construção de uma plataforma de nuvem híbrida escalável e modernização de workloads.
+
+ - **Domínios de Transformação do AWS CAF**
+
+    - **Transformação Tecnológica:** Migração e modernização de infraestrutura, aplicações e plataformas de dados e análises.
+    - **Transformação de Processos:** Digitalização, automação e otimização das operações de negócios.
+Transformação Organizacional: Reimaginação do modelo operacional e organização de equipes em torno de produtos e valor.
+    - **Transformação de Produtos:** Reimaginação do modelo de negócios, criação de novas propostas de valor e modelos de receita.
+
+ - **Perspectivas do AWS CAF**
+
+    - **Perspectiva de Negócios:** Alinhamento dos investimentos em nuvem com as ambições de    transformação digital.
+    - **Perspectiva de Pessoas:** Evolução para uma cultura de crescimento e aprendizado contínuos.
+    - **Perspectiva de Governança:** Orquestração de iniciativas de nuvem e minimização de riscos.
+    - **Perspectiva de Plataforma:** Criação de uma plataforma de nuvem híbrida escalável.
+    - **Perspectiva de Segurança:** Garantia da confidencialidade, integridade e disponibilidade dos    dados.
+    - **Perspectiva de Operações:** Garantia da entrega de serviços de nuvem atendendo às necessidades da empresa.
+
+
+- **Conclusão**
+
+Destaque para a importância do AWS CAF como guia para transformação digital na AWS.
+Abordagem abrangente do AWS CAF, cobrindo aspectos tecnológicos, organizacionais e operacionais.
+____
+
+### Estratégias de Migração para a Nuvem com AWS CAF
+
+Estratégias de migração são métodos ou abordagens que ajudam você a planejar, executar e validar a migração de seus workloads para a nuvem AWS.
+
+A AWS oferece um conjunto de estratégias de migração baseadas nas melhores práticas e nas experiências de seus clientes e parceiros. Essas estratégias são conhecidas como as Sete Estratégias de Migração para a Nuvem, ou as 7 Rs. Elas são:
+
+1. Retire (Retirada):
+
+Estratégia para migrar aplicativos a serem descomissionados ou arquivados.
+Inclui desativar aplicativos sem valor comercial, reduzir custos de manutenção e hospedagem, e mitigar riscos de segurança.
+
+2. Retain (Reter):
+
+Estratégia para manter aplicativos no ambiente de origem ou adiar sua migração para a nuvem.
+Motivos incluem segurança e conformidade, alto risco, dependências e falta de valor comercial na migração.
+
+3. Rehost (Rehospedar):
+
+Mover aplicativos para a nuvem sem modificá-los (lift and shift).
+Permite migrar rapidamente para a nuvem, minimizando interrupções e tempo de inatividade.
+
+4. Relocate (Realocar):
+
+Transferir servidores ou instâncias para outra plataforma na nuvem.
+Não exige novo hardware e mantém o aplicativo em execução, minimizando interrupções e tempo de inatividade.
+
+5. Repurchase (Recompra):
+
+Substituir o aplicativo por uma versão ou produto diferente, geralmente para reduzir custos ou melhorar a eficiência.
+Inclui mudança para SaaS, atualizações de versão, substituição de aplicativos personalizados, entre outros.
+
+6. Replatform (Realocação de plataformas):
+
+Mover o aplicativo para a nuvem e introduzir otimizações para operá-lo de forma eficiente, reduzir custos ou aproveitar recursos da nuvem.
+Envolvimento de mudanças na arquitetura do aplicativo para atender a objetivos de negócios e plataformas de destino.
+
+7. Refactor or Re-architect (Refatorar ou Rearquitetar):
+
+Modificar a arquitetura do aplicativo ao movê-lo para a nuvem, aproveitando os recursos nativos para melhorar agilidade, desempenho e escalabilidade.
+Útil para aplicativos legados, monolíticos ou difíceis de manter, visando aprimorar testes, segurança e escalabilidade.
+
+> A escolha da estratégia de migração adequada depende de vários fatores, como o tipo, a complexidade e a criticidade dos workloads, os objetivos, os requisitos e as restrições de negócios, o tempo, o custo e o risco da migração, e o nível de maturidade e prontidão para a nuvem.
+
+
+- **Ferramentas e Servicos AWS para Migração**
+    - AWS Migration Hub
+    - AWS Application Discovery Service
+    - AWS Server Migration Service
+    - AWS Database Migration Service
+    - AWS CloudEndure Migration
+    - AWS Snow Family
 
 
 
