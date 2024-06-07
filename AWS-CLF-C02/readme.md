@@ -11,4 +11,6 @@ ____
 
  - Proposta de Valor e Benefícios da Nuvem AWS
     - Um dos principais benefícios da nuvem AWS é a economia de custos;
-    - 
+    - Dimensionamento
+        - Vertical: Aumentar ou diminuir a capacidade de um unico recurso. (Um Servidor)
+        - Horizontal: Aumentar ou diminuir o numero de recursos. (Vários Servidores)
