@@ -1,6 +1,11 @@
 
 # Guia de Estudos : AWS Cloud Practitioner (CLF‐C02)
 
+![CLF-002](https://d1.awsstatic.com/certification/badges/AWS-Certified-Cloud-Practitioner_badge_150x150.17da917fbddc5383838d9f8209d2030c8d99f31e.png)
+
+
+[Link Oficial](https://aws.amazon.com/pt/certification/certified-cloud-practitioner/)
+
 #### Domínio 1: Conceitos de Nuvem (24%)
 - Explora os fundamentos da computação em nuvem, incluindo modelos de implantação, benefícios e considerações econômicas.
 #### Domínio 2: Segurança e Conformidade (30%)
