@@ -22,3 +22,44 @@
 3. [Tecnologia e Serviços](TecnologiaeServiços.md)
 4. [Cobrança, Preços e Suporte](CobrançaPreçoseSuporte.md)
 5. [Anotacoes em Geral](geral.md)
+
+# Anotações Gerais 
+
+#### Faturamento 
+- Alerta de gastos, com o **Cloud Watch**, somente em **N. Virginia - us-east-1**
+- Desabilitado por padrão 
+
+#### Cloud
+- Custo Reduzido 
+- Escala Global
+- Performance
+- Velocidade
+- Produtividade
+- Segurança
+- Flexibilidade 
+
+#### Tipos de Cloud
+- SAAS
+- PAAS
+- IAAS
+
+- Cloud Publica
+- Cloud Privada
+- Cloud Hibrida
+
+#### AWS [Support](https://aws.amazon.com/pt/premiumsupport/plans/)
+- Basic 
+- Developer
+- Business
+- Enterprise On-Ramp
+- Enterprise
+
+#### IAM - Identity and Access Management
+- Gerencia acesso aos recursos da AWS
+- Usuários
+- Grupos
+- Funções e Politicas
+
+
+
+
