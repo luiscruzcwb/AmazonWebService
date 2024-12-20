@@ -42,7 +42,6 @@
 - SAAS
 - PAAS
 - IAAS
-
 - Cloud Publica
 - Cloud Privada
 - Cloud Hibrida
