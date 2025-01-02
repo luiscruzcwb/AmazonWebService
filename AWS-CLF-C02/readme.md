@@ -83,7 +83,21 @@
 -  Pode se criar uma estrutura hierárquica de Unidades Organizacionais (OUs) para agrupar suas contas. Isso ajuda a organizar suas contas em uma estrutura que melhor se alinhe com o uso dos recursos em sua organização
 - Oferece políticas de controle de serviço (SCPs) que permitem que você controle as permissões para as contas em sua organização. Isso permite que você aplique regras de acesso uniformes em todas as suas contas
 
+#### EC2 (Elastic Compute Cloud)
+- IaaS / VM 
+- EC2 [Types](https://aws.amazon.com/pt/ec2/instance-types/)
+- Tipos de EC2 divididas em categorias
+- Modelos de Aquisição: 
+    - **Nivel Gratuito** (T2/T3 Micro)
+    - **Sob Demanda** - Mais caros
+    - **Savings Plans** - Mais baratos, porém somente via contratos (1 a 3 anos) 
+    - **Instâncias Spot** - Ainda mais barato, porém, pode ser encerrado a qualquer momento
+    - **Hosts Dedicados** - Os mais caros
+    - **Capacidade sob demanada** - Mais caros, devido o seu custo ser cobrado via a demanada de uso. 
+- Cobrança por segundo das EC2s
+- Preço sob demanda do [EC2](https://aws.amazon.com/pt/ec2/pricing/on-demand/)
 
+#### EBS (Elastic Block Store)
 
 
 
