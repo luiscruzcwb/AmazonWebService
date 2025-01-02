@@ -88,17 +88,17 @@
 - EC2 [Types](https://aws.amazon.com/pt/ec2/instance-types/)
 - Tipos de EC2 divididas em categorias
 - Modelos de Aquisição: 
-    - **Nivel Gratuito** (T2/T3 Micro)
-    - **Sob Demanda** - Mais caros
-    - **Savings Plans** - Mais baratos, porém somente via contratos (1 a 3 anos) 
-    - **Instâncias Spot** - Ainda mais barato, porém, pode ser encerrado a qualquer momento
-    - **Hosts Dedicados** - Os mais caros
-    - **Capacidade sob demanada** - Mais caros, devido o seu custo ser cobrado via a demanada de uso. 
-- Cobrança por segundo das EC2s
-- Preço sob demanda do [EC2](https://aws.amazon.com/pt/ec2/pricing/on-demand/)
+    - **Nivel Gratuito** Free (T2/T3 Micro)
+    - **Sob Demanda** - $$$$ Alto Custo
+    - **Savings Plans** - $$ Baixo Custo, porém somente via contratos (1 a 3 anos) 
+    - **Instâncias Spot** - $ O com mais Baixo Custo, porém, pode ser encerrado a qualquer momento
+    - **Hosts Dedicados** - $$$$$$$ Custo Elevado
+    - **Capacidade sob demanada** - $$$$$$$ Custo Elevado, devido o seu valor ser cobrado via a demanada de uso
+    - Preço sob demanda do [EC2](https://aws.amazon.com/pt/ec2/pricing/on-demand/)
+- EC2 Calcula os custos por segundo de uso das EC2's
 
 #### EBS (Elastic Block Store)
-
+- 
 
 
 
