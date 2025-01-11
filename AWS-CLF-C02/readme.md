@@ -6,6 +6,8 @@
 
 [Link Oficial](https://aws.amazon.com/pt/certification/certified-cloud-practitioner/)
 
+[Documentação](https://docs.aws.amazon.com/)
+
 #### Domínio 1: Conceitos de Nuvem (24%)
 - Explora os fundamentos da computação em nuvem, incluindo modelos de implantação, benefícios e considerações econômicas.
 #### Domínio 2: Segurança e Conformidade (30%)
