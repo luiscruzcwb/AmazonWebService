@@ -28,8 +28,8 @@
 # Anotações Gerais 
 
 #### Faturamento 
-- Alerta de gastos, com o **Cloud Watch**, somente em **N. Virginia - us-east-1**
-- Desabilitado por padrão 
+- os alertas de gastos são configurados com o **CloudWatch** em conjunto com o **Billing and Cost Management**, mas esses alertas só podem ser criados na região **N. Virginia (us-east-1)**. Isso ocorre porque o serviço de faturamento e monitoramento de custos é global, mas o CloudWatch para esses alertas é centralizado nessa região específica.
+- Alertas desabilitados por padrão 
 
 #### Cloud
 - Custo Reduzido 
