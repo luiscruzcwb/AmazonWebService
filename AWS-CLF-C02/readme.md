@@ -89,16 +89,68 @@
 - Tipos de EC2 divididas em categorias
 - Modelos de Aquisição: 
     - **Nivel Gratuito** Free (T2/T3 Micro)
-    - **Sob Demanda** - $$$$ Alto Custo
-    - **Savings Plans** - $$ Baixo Custo, porém somente via contratos (1 a 3 anos) 
-    - **Instâncias Spot** - $ O com mais Baixo Custo, porém, pode ser encerrado a qualquer momento
-    - **Hosts Dedicados** - $$$$$$$ Custo Elevado
-    - **Capacidade sob demanada** - $$$$$$$ Custo Elevado, devido o seu valor ser cobrado via a demanada de uso
+
+    - **Instâncias sob demanda**: pague pelas instâncias que você iniciar
+
+    - **Savings Plans**: reduza os custos do Amazon EC2 se comprometendo com uma quantidade consistente de uso, em USD por hora, por um período de vigência de um ou de três anos.
+    
+    - **Reserved Instances (Instâncias reservadas)**: reduza os custos do Amazon EC2 se comprometendo com uma configuração consistente de instância, incluindo o tipo de instância e a região, por um período de vigência de um ou de três anos.
+    
+    - **Spot Instances (Instâncias spot)**: solicite instâncias do EC2 não utilizadas, o que pode reduzir os custos do Amazon EC2 significativamente.
+    
+    - **Dedicated Hosts (Hosts dedicados)**: pague por um host físico que seja totalmente dedicado à execução de suas instâncias e traga suas licenças de software existentes por soquete, por núcleo ou por VM para reduzir custos.
+    
+    - **Dedicated Instances (Instâncias dedicadas)**: pague por hora pelas instâncias que são executadas no hardware de um ocupante único.
+    
+    - **Reservas de capacidade**: reserve capacidade para as instâncias do EC2 em uma zona de disponibilidade específica.
+    
     - Preço sob demanda do [EC2](https://aws.amazon.com/pt/ec2/pricing/on-demand/)
-- EC2 Calcula os custos por segundo de uso das EC2's
+    - EC2 Calcula os custos por segundo de uso das EC2's
 
 #### EBS (Elastic Block Store)
-- 
+- HDD - Lento
+- SSD - Rapido
+- Desempenho
+- Durabilidade
+- Uma solução de armazenamento em bloco de alto desempenho que é fundamental para muitas aplicações em execução na AWS devido à sua durabilidade, flexibilidade e integração com a AWS.
+
+#### Snapshots
+
+#### AMI (Amazon Machine Image)
+
+#### EFS (Elastic File System)
+- Linux
+- Solução de armazenamento de arquivos escalável, de alta disponibilidade e segura, que facilita o compartilhamento de arquivos entre instâncias EC2 e outros serviços AWS.
+
+#### FSx (File System x)
+- Windows
+- Alto desempenho
+- Serviço poderoso e flexível que torna mais fácil do que nunca para você executar sistemas de arquivos totalmente gerenciados na AWS. Ele suporta sistemas de arquivos Windows e Lustre, oferecendo um alto nível de desempenho, segurança e integração com outros serviços AWS.
+
+#### Escabilidade, Elasticidade, Disponibilidade
+- Escalabilidade: Foca em crescer ou reduzir a capacidade
+    Tipos:
+        - Vertical: Aumentar recursos de uma única instância (exemplo: trocar um servidor pequeno por um maior).
+        - Horizontal: Adicionar mais instâncias para distribuir a carga (exemplo: adicionar servidores em um grupo de auto scaling).
+- Elasticidade: Foca em ajustes automáticos baseados em necessidade
+- Disponibilidade: Foca em manter o sistema sempre funcional e acessível
+
+#### S3 
+- Nome unico
+- Classes
+    - **S3 Standard**: Uso geral, para dados acessados com frequência
+    - **S3 Intelligent-Tiering**: Economia automatica, para dados padrões com acessos desconhecidos ou variáveis
+    - **S3 Express One Zone**: Alta performance, acessos com frequência
+    - **S3 Standard-IA**: Dados acessados com pouca frequência, porém, com acesso em milisegundos
+    - **S3 One Zone-IA**: Dados recriáveis acessados com pouca frequência
+    - **S3 Glacier Instant Retrieval**: Dados de longa duração, acessados algumas vezes anualmente, porém com recuperações instantâneas
+    - **S3 Glacier Flexible Retrieval**: Backup e arquivamento de dados, raramente acessados e com custo baixo
+    - **S3 Glacier Deep Archive**: Arquivamento de dados, raramente acessados, e com custo baixo 
+
+
+
+
+
 
 
 
