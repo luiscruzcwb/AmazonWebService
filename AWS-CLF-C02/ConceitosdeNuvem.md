@@ -34,7 +34,7 @@
         - CLI Command, SDK. 
 ____
 
-### AWS Well-Architected Framework (WAF)
+### AWS Well-Architected Framework (WAF)[https://aws.amazon.com/pt/waf/]
 
  - **O Que é o AWS Well-Architected Framework?**
     - Práticas recomendadas para projetar e operar sistemas na AWS.
@@ -86,7 +86,7 @@ Conclusão
 > Necessidade de uma abordagem e avaliação específicas para cada pilar.
 ____
 
-### AWS Cloud Adoption Framework (AWS CAF)
+### AWS Cloud Adoption Framework (AWS CAF)[https://aws.amazon.com/pt/cloud-adoption-framework/]
 
  - AWS Cloud Adoption Framework (AWS CAF) como modelo para guiar a transformação digital na AWS. Um modelo que busca identificar e priorizar oportunidades de transformação digital. Avaliar e aumentar a prontidão para a nuvem, deselvonveldo um roteiro para a transição dos negocios para a nuvem. 
 
