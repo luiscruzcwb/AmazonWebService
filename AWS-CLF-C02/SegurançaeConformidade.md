@@ -41,10 +41,3 @@ AWS S3:
 - Flexibilidade: Permite ao cliente adotar práticas de segurança personalizadas, enquanto a AWS cuida da infraestrutura.
 
 [Menu](readme.md)
-
-
-
-
-
-____
-[Menu](readme.md)
