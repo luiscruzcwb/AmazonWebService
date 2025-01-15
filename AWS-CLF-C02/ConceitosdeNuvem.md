@@ -10,9 +10,9 @@
 - Benefícios da Infraestrutura Global
     - Uma **região** é uma área geográfica onde a AWS possui um conjunto de data centers, que são locais onde os servidores, redes, armazenamentos e outros recursos de TI são armazenados e operados. 
     
-    - Uma **zona de disponibilidade** é uma parte isolada de uma região, onde a AWS possui um ou mais data centers, que são conectados por redes de alta velocidade e baixa latência. A AWS possui atualmente 33 regiões e 105 zonas de disponibilidade ao redor do mundo
+    - Uma **zona de disponibilidade** é uma parte isolada de uma região, onde a AWS possui um ou mais data centers, que são conectados por redes de alta velocidade e baixa latência. A AWS possui atualmente 36 regiões e 114 zonas de disponibilidade ao redor do mundo
 
-> A Nuvem AWS abrange 105 zonas de disponibilidade em 33 regiões geográficas, com planos anunciados para mais 18 zonas de disponibilidade e mais seis regiões da AWS na Malásia, México, Nova Zelândia, Reino da Arábia Saudita, Tailândia e na nuvem soberana europeia da AWS.
+> A Nuvem AWS abrange 114 zonas de disponibilidade em 36 regiões geográficas, com planos anunciados para mais 12 zonas de disponibilidade e mais quatro regiões da AWS na Nova Zelândia, no Reino da Arábia Saudita, em Taiwan e na nuvem soberana europeia da AWS.
 
 - A vantagem de ter uma infraestrutura global são:
 
