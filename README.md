@@ -121,7 +121,7 @@ E utilize o perfil nos comandos:
 
 ### Links úteis
 
-[Documentação oficial da AWS CLI (pt-BR)]((https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html))
+[Documentação oficial da AWS CLI (pt-BR)](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html)
 
 [Guia de boas práticas para credenciais IAM](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/best-practices.html)
 
