@@ -18,21 +18,115 @@ Todas as funções de AWS administração, gerenciamento e acesso de IaaS (infra
 
 `aws --version`
 
-**AWS Configure**
+**Gerar chaves de acesso**
 
-`aws configure` Enter
+No console da AWS, acesse:
 
-`AWS Access Key ID [None]`: key id  <!-- Key ID de exemplo -->
+`IAM > Security credentials > Access keys > Create access key`
 
-`AWS Secret Access Key [None]`: access key <!-- Key Secret de exemplo (ex: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY) -->
+Você pode ter no máximo 2 chaves de acesso (ativas ou inativas). Essas chaves são usadas para chamadas programáticas via:
 
-`Default region name [None]`: us-west-2 <!-- Altere para a região de sua preferencia -->
+- AWS CLI
+- AWS Tools for PowerShell
+- SDKs da AWS
+- Chamadas diretas à API da AWS
 
-`Default output format [None]`: Enter
+**Executar `aws configure`**
+
+- AWS Access Key ID [None]: `sua-access-key-id`
+- AWS Secret Access Key [None]: `sua-secret-access-key`
+- Default region name [None]: `sa-east-1` # Altere para sua região preferida
+- Default output format [None]: # Pressione Enter para deixar vazio (JSON é o padrão)
 
 
-### Links
-[Documentação AWS Cli](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html)
+## Comandos Úteis
+
+### Verificar configuração atual
+`aws configure list`
+
+Mostra:
+
+- As credenciais (Access Key / Secret Key)
+- A região configurada
+- A origem de cada configuração (arquivo, variável de ambiente etc.)
+
+### Verificar identidade do usuário (IAM)
+`aws sts get-caller-identity`
+
+Retorna:
+
+- UserId
+- Account
+- Arn
+
+Se funcionar, significa que a CLI está autenticada corretamente.
+
+### Verificar credenciais locais
+`cat ~/.aws/credentials`
+
+### Testar chamada simples (exemplo com S3)
+`aws s3 ls`
+
+Se retornar buckets ou uma lista vazia sem erro, a autenticação está OK.
+
+Se aparecer **AccessDenied** ou **InvalidAccessKeyId**, revise suas credenciais.
+
+### Trabalhando com perfis nomeados
+
+`aws configure list --profile nome-do-perfil`
+
+`aws sts get-caller-identity --profile nome-do-perfil`
+
+### Definir a região padrão
+
+via CLI
+
+`aws configure set region sa-east-1`
+
+Isso criará (ou atualizará) o arquivo **~/.aws/config** com:
+
+```ini
+[default]
+region = sa-east-1
+```
+
+edição manual
+`nano ~/.aws/config`
+
+Adicione ou edite o conteúdo:
+
+```ini
+[default]
+region = sa-east-1
+```
+
+Substitua **sa-east-1** pela região que você deseja usar.
+
+### Outras regiões comuns:
+- us-east-1 – Norte da Virgínia
+- us-west-2 – Oregon
+- sa-east-1 – São Paulo
+
+### Com perfis nomeados
+
+Se estiver usando perfis:
+
+```ini
+[profile dev]
+region = sa-east-1
+```
+
+E utilize o perfil nos comandos:
+`aws s3 ls --profile dev`
+
+### Links úteis
+
+[Documentação oficial da AWS CLI (pt-BR)]((https://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-welcome.html))
+
+[Guia de boas práticas para credenciais IAM](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/best-practices.html)
+
+
+
 
 
 
